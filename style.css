@@ -1,0 +1,75 @@
+body{
+    background-color: gainsboro;
+}
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration-style: solid;
+    
+}
+h2{
+    text-align: center;
+    width: 80px;
+    height: 10px;
+     margin: 0px;
+    padding: 20px;
+    background-color: green;
+    border: 2px solid black;
+    float: right;
+    clear: right;
+
+}
+.chicken{
+    color:white;
+    width: 400px;
+    height: 200px;
+    background-color: burlywood;
+    margin: 10px;
+    padding: 0px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    float: left;
+}
+.Shushi{
+    color:white;
+    width: 400px;
+    height: 200px;
+    background-color: burlywood;
+    margin: 10px;
+    padding: 0px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    float: left;
+}
+.Beef{
+    color:white;
+    width: 400px;
+    height: 200px;
+    background-color: burlywood;
+    margin: 10px;
+    padding: 0px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    float: left;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    background-color: lavender;
+    width: 25%;  
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: lavender;
+    width: 95%;
+  }
+
+@media screen and (min-width: 992px) {
+  body {
+    background-color: lavender;
+    width: 70%;
+  }
+        
+}
